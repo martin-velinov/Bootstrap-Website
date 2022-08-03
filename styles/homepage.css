@@ -1,5 +1,80 @@
+body {
+  font-family: 'Poppins';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border-radius: 5px;
+}
+
+i {
+  color: #4d8eff;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+a {
+  color: #347eff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1a6eff;
+}
+
+a:active, a:focus {
+  text-decoration: none;
+}
+
+.btn, a.btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.btn .fa, a.btn .fa {
+  margin-right: 5px;
+}
+
+.btn-cta, a.btn-cta {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  background: #4d8eff;
+  border: 1px solid #4d8eff;
+  color: #f2f2f2;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.hover {
+  background: #347eff;
+  color: #f2f2f2;
+  border: 1px solid #347eff;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #4d8eff;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .btn-secondary.hover {
+  border: 1px solid #4d8eff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .hero-section {
-  position: absolute;
   content: "";
   right: 0;
   width: 100%;
@@ -8,10 +83,10 @@
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0;
-  height: 100%;
   top: 0;
   z-index: -1;
   border-radius: 0;
+  color: #f2f2f2;
 }
 
 nav {
